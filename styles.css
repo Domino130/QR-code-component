@@ -1,43 +1,46 @@
-html, body {
-    background-color: hsl(212, 45%, 89%);
-    display: flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .qr {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 15px;
-    width: 320px;
-    height: 497px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  max-width: 320px;
+  height: 497px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .qr-image {
-    align-self: center;
-    margin-top: 15px;
-    border-radius: 10px;
+  align-self: center;
+  margin-top: 15px;
+  border-radius: 10px;
 }
 
 .title {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    color: hsl(218, 44%, 22%);
-    margin-top: 25px;
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
+h1 {
+  margin: 0;
+}
 
 .sub-title {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-    margin-top: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  margin-top: 12px;
 }
